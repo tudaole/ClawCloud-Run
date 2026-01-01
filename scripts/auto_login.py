@@ -403,7 +403,7 @@ class AutoLogin:
             pass
         
         # 发送提示并等待验证码
-        self.tg.send(f"""🔐 <b>需要验证码登录</b>
+        self.tg.send(f"""🔐 <b>登录账号:{self.username}{region_info}，需要验证码登录</b>
 
 请在 Telegram 里发送：
 <code>/code 你的6位验证码</code>
